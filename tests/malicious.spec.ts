@@ -13,7 +13,7 @@ test('check if there is malicious bot match 140.235.248.3 IP in Excel', async ()
 });
 
 test('check if all malicious data in centers list are in Excel', async () => {
-   const ipList=['61.247.133.200','241.81.13.96']
+   const ipList=['61.247.133.200','241.81.13.96','0.0.0.0']
    await findSpecificIPsList(data,ipList)
 
 });
